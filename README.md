@@ -1,5 +1,5 @@
-# se
-A collection of practice software engineering HSC exams.
+# ec
+A collection of practice enterprise computing HSC exams.
 
 # todo
 - [ ] Fix python infinite loop /
