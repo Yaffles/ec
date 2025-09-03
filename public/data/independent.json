@@ -1,1570 +1,727 @@
-[{
-    "id": "question-1",
-    "title": "New Question 1, Privacy by Design",
-    "parts": [{
+[
+  {
+    "id": "ec_q1",
+    "title": "EC 2025, Q1, Data Types",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q1_p1",
         "title": "Question 1",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>The “Privacy by Design” approach is defined as:</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>What is the main difference between qualitative and quantitative data?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Features added after software is released to lock down stored data.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Improvements to processing reliability made after a security breach.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Modifications made following user feedback on interface inefficiencies.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Building software with data protection measures integrated from the outset.</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [3]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q1_opt1", "text": "Qualitative data is numerical and used for mathematical calculations; quantitative data is descriptive and observed." },
+              { "id": "q1_opt2", "text": "Quantitative data is descriptive and gathered through interviews; qualitative data is measured and analysed statistically." },
+              { "id": "q1_opt3", "text": "Qualitative data is non-numerical and observed through methods like interviews; quantitative data is numerical and used for statistical analysis." },
+              { "id": "q1_opt4", "text": "Quantitative data includes opinions and emotions; qualitative data includes test scores and financial figures." }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [2]
+          }
         }
-    }]
-}, {
-    "id": "question-2",
-    "title": "New Question 2, CSRF Attack",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q2",
+    "title": "EC 2025, Q2, SQL Query",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q2_p1",
         "title": "Question 2",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>A user logs into their bank’s website, which allows money transfers via a button. A hacker sends the user a malicious email containing a link. When the user clicks the link, a money transfer request is executed without their knowledge.</p><p>What type of attack is this?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Consider the following SQL query:</p><pre><code>SELECT First_name, Last_name \nFROM Users \nWHERE Score > 80 \nORDER BY Score ASC</code></pre><p>What does the SQL query do?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Cross-Site Request Forgery (CSRF)</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Cross-Site Scripting (XSS)</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Denial of Service (DoS)</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>SQL Injection</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [0]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q2_opt1", "text": "Returns all users and displays their scores in descending order." },
+              { "id": "q2_opt2", "text": "Returns first and last names of users along with their score if it is less than 80, in ascending order by score." },
+              { "id": "q2_opt3", "text": "Updates the scores of users who scored more than 80 and returns the result sorted by scores." },
+              { "id": "q2_opt4", "text": "Returns first and last names of users with a score greater than 80, sorted by score in ascending order." }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [3]
+          }
         }
-    }]
-}, {
-    "title": "New Question 3, Email Protocol",
-    "id": "question-3",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q3",
+    "title": "EC 2025, Q3, Business Analytics Software",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q3_p1",
         "title": "Question 3",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Email clients send mail using which protocol?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Within business analytics software, which of the following is a limitation?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>SMTP</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>IMAP</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>FTP</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>POP3</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [0]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q3_opt1", "text": "Compatibility with multiple data sources." },
+              { "id": "q3_opt2", "text": "User-friendly tools for presentation creation." },
+              { "id": "q3_opt3", "text": "Fewer options for customising data visualisations." },
+              { "id": "q3_opt4", "text": "Support for real-time data updates and team collaboration." }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [2]
+          }
         }
-    }]
-}, {
-    "title": "New Question 4, Client-Side Programming",
-    "id": "question-4",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q4",
+    "title": "EC 2025, Q4, Pivot Tables",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q4_p1",
         "title": "Question 4",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>In the context of a web application, what is the main role of client-side programming?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>What is the main advantage of using a pivot table in a spreadsheet program?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Managing server databases and application logic.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Handling user interface interactions and dynamic content display in the browser.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Storing persistent data and authenticating users on the server.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Processing requests and sending responses from the web server.</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [1]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q4_opt1", "text": "It automatically formats the spreadsheet into a visualisation suitable for printing." },
+              { "id": "q4_opt2", "text": "It permanently deletes irrelevant data such as redundant data and outliers which results in a reduced file size." },
+              { "id": "q4_opt3", "text": "It links the spreadsheet directly to a database such that alterations to the database are reflected in real time within the spreadsheet." },
+              { "id": "q4_opt4", "text": "It enables users to efficiently analyse, sort and summarise data from different perspectives." }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [3]
+          }
         }
-    }]
-}, {
-    "title": "New Question 5, Automation Benefits",
-    "id": "question-5",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q5",
+    "title": "EC 2025, Q5, Decision Support Systems",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q5_p1",
         "title": "Question 5",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>What is the most effective approach to ensuring that automation benefits society as a whole?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>In which type of decision support system is a fixed set of rules followed without human involvement?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Allow market forces to guide the adoption of automation, trusting that economic growth will naturally lead to broader societal benefits.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Prioritise technological advancement and productivity gains, with social concerns addressed only after implementation.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Encourage collaboration between policymakers, educators, and businesses to promote inclusivity, skill development, and sustainability.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Limit the use of automation to industries with low employment rates.</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [2]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q5_opt1", "text": "Heuristic" },
+              { "id": "q5_opt2", "text": "Structured" },
+              { "id": "q5_opt3", "text": "Unstructured" },
+              { "id": "q5_opt4", "text": "Semi-structured" }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [1]
+          }
         }
-    }]
-}, {
-    "title": "New Question 6, Regression Model",
-    "id": "question-6",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q6",
+    "title": "EC 2025, Q6, Intelligent Manufacturing",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q6_p1",
         "title": "Question 6",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>A real estate agency wants to build a model to predict whether a house is likely to be sold within 60 days based on features such as its price, location score, number of bedrooms, and age. Based on the scenario above, which regression model is most appropriate, and why?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>What is a typical use of sensors and actuators in an intelligent manufacturing system?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Linear regression, because it can handle multiple input features and will predict the number of days it takes to sell the house.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Polynomial regression, because housing data often involves curved relationships between price and location.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Logistic regression, because the goal is to classify whether a house will be sold within a specific time frame.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Polynomial regression, because the number of bedrooms and age of the house are discrete variables requiring non-linear models.</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [2]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q6_opt1", "text": "Recording staff leave entitlements" },
+              { "id": "q6_opt2", "text": "Managing customer loyalty programs" },
+              { "id": "q6_opt3", "text": "Encrypting enterprise data during transmission" },
+              { "id": "q6_opt4", "text": "Enabling real-time monitoring and control of machinery" }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [3]
+          }
         }
-    }]
-}, {
-    "id": "question-7",
-    "title": "New Question 7, Implementation Method",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q7",
+    "title": "EC 2025, Q7, Prototyping",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q7_p1",
         "title": "Question 7",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>A new software application is introduced by initially running the program with only a few of its modules active. After confirming that these modules function correctly, the remaining components are gradually activated.</p><p>What type of implementation method does this scenario describe?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Why may a development team decide to create a prototype when developing an enterprise system?</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Direct</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Phased</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Parallel</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Pilot</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [1]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q7_opt1", "text": "To document research obtained during the development process." },
+              { "id": "q7_opt2", "text": "To refine system requirements during the research and planning stage of development." },
+              { "id": "q7_opt3", "text": "To test ideas in real world scenarios and obtain feedback." },
+              { "id": "q7_opt4", "text": "As a final model of a system that is then distributed commercially to clients." }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [1]
+          }
         }
-    }]
-}, {
-    "id": "question-8",
-    "title": "New Question 8, Agile Development",
-    "parts": [{
-        "title": "Question 8",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Which of the following is true for the Agile Development Approach?</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Suited to projects with clear requirements and performance is not considered to be critical.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Suited to projects with evolving requirements and performance is not considered to be critical.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Suited to user-centred projects with clear requirements and performance is critical.</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Suited to software automation projects, with evolving requirements and performance is critical.</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": false
-                },
-                "correctOptionsIndices": [1]
-            }
-        }
-    }]
-}, {
-    "id": "question-9",
-    "title": "New Question 9, Sandboxing",
-    "parts": [{
-        "title": "Question 9",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>What are the benefits of using sandboxing in software development or deployment?</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Replaces the need for authentication by isolating users</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Prevents untrusted code from damaging the host system</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Allows developers to test software in a controlled environment</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Reduces the need for secure coding practices in application development</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Reduces the risk of security vulnerabilities affecting other parts of the system</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Improves execution speed by isolating software from operating system processes</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Prevents changes to live data during development and training</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": true
-                },
-                "correctOptionsIndices": [1, 2, 4, 6]
-            }
-        }
-    }]
-}, {
-    "id": "question-10",
-    "title": "New Question 10, CSS",
-    "stimulusContentItemCollection": {
-        "items": [{
-            "type": "RICH_TEXT",
-            "text": "<p>Consider the following CSS code.</p><br><pre><code>body {\n    background-color: #0000ff;\n    color: #00ff00;\n    font-family: Arial, serif;\n    margin: 20px;\n}\nh1 {\n    color: #ff0000;\n    text-align: center;\n}\np {\n    color: #ffffff;\n    font-size: 16px;\n}</code></pre>"
-        }]
-    },
-    "parts": [{
-        "title": "Question 10",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Which of the following is true for pages styled using the above CSS code?</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Paragraph text is displayed in white</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>All heading text (h1, h2, etc.) will be red</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>The color property in the body overrides the paragraph text color</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Only the h1 heading text is centred</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>The background of the page is blue</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>All fonts will have serifs if Arial is not available</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Body text is hard against the left side of the screen</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Text not within &lt;h1&gt; or &lt;p&gt; tags will be green</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>All text will be in a font size of 16 pixels</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": true
-                },
-                "correctOptionsIndices": [0, 3, 4, 5, 7]
-            }
-        }
-    }]
-}, {
-    "id": "question-11",
-    "title": "New Question 11, Workplace Automation",
-    "parts": [{
-        "title": "Question 11",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Which of the following impacts are likely to result from increased automation in the workplace?</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Greater job satisfaction for manual labourers</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Reduction in demand for some low-skilled jobs</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Increased access to public transport</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Improved safety in high-risk work environments</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>More diverse cultural representation in media</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Decrease in energy consumption from all industries</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Reduced labour costs for employers</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Need for workforce reskilling and upskilling</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": true
-                },
-                "correctOptionsIndices": [1, 3, 6, 7]
-            }
-        }
-    }]
-}, {
-    "id": "question-12",
-    "title": "New Question 12, Context Diagram",
+      }
+    ]
+  },
+  {
+    "id": "ec_q8",
+    "title": "EC 2025, Q8, Data Flow Diagram",
     "stimulusContentItemCollection": {
       "items": [
-        {
-          "type": "RICH_TEXT",
-          "text": "<p>The following context diagram describes a food ordering app.</p>"
-        },
-        {
-            "type": "IMAGE",
-            "files": [
-                {
-                    "url": "/img/independent/12.png"
-                }
-            ]
-        }
+        { "type": "IMAGE", "files": [{ "url": "img/independent/Q8.png" }] },
+        { "type": "RICH_TEXT", "text": "<table style=\"border-collapse: collapse; width: 100%; border-color: #000000; border-style: solid;\" border=\"1\"><tbody><tr><td style=\"width: 12%; text-align: center;\"><strong>Answer</strong></td><td style=\"width: 18%; text-align: center;\">Unprocessed data</td><td style=\"width: 12%; text-align: center;\">A report</td><td style=\"width: 14%; text-align: center;\">System database</td><td style=\"width: 10%; text-align: center;\">Users</td><td style=\"width: 17%; text-align: center;\">Processing data</td><td style=\"width: 17%; text-align: center;\">Report creation</td></tr><tr><td style=\"width: 12%; text-align: center;\"><strong>A</strong></td><td style=\"width: 18%; text-align: center;\">2</td><td style=\"width: 12%; text-align: center;\">10</td><td style=\"width: 14%; text-align: center;\">7</td><td style=\"width: 10%; text-align: center;\">5</td><td style=\"width: 17%; text-align: center;\">9</td><td style=\"width: 17%; text-align: center;\">3</td></tr><tr><td style=\"width: 12%; text-align: center;\"><strong>B</strong></td><td style=\"width: 18%; text-align: center;\">10</td><td style=\"width: 12%; text-align: center;\">2</td><td style=\"width: 14%; text-align: center;\">5</td><td style=\"width: 10%; text-align: center;\">1</td><td style=\"width: 17%; text-align: center;\">9</td><td style=\"width: 17%; text-align: center;\">3</td></tr><tr><td style=\"width: 12%; text-align: center;\"><strong>C</strong></td><td style=\"width: 18%; text-align: center;\">1</td><td style=\"width: 12%; text-align: center;\">6</td><td style=\"width: 14%; text-align: center;\">1</td><td style=\"width: 10%; text-align: center;\">7</td><td style=\"width: 17%; text-align: center;\">3</td><td style=\"width: 17%; text-align: center;\">4</td></tr><tr><td style=\"width: 12%; text-align: center;\"><strong>D</strong></td><td style=\"width: 18%; text-align: center;\">10</td><td style=\"width: 12%; text-align: center;\">2</td><td style=\"width: 14%; text-align: center;\">5</td><td style=\"width: 10%; text-align: center;\">1</td><td style=\"width: 17%; text-align: center;\">7</td><td style=\"width: 17%; text-align: center;\">2</td></tr></tbody></table>" }
       ]
     },
-    "parts": [{
+    "parts": [
+      {
+        "id": "ec_q8_p1",
+        "title": "Question 8",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>The labels in the data flow diagram could be used to represent which of the following elements?</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q8_opt1", "text": "A" },
+              { "id": "q8_opt2", "text": "B" },
+              { "id": "q8_opt3", "text": "C" },
+              { "id": "q8_opt4", "text": "D" }
+            ],
+            "settings": { "multipleCorrectOptions": false },
+            "correctOptionsIndices": [1]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ec_q9",
+    "title": "EC 2025, Q9, IoMe and IoT",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q9_p1",
+        "title": "Question 9",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Which of the following devices are part of the internet of me (IoMe) and the internet of things (IoT)? (More than one may be selected.)</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q9_opt1", "text": "Industrial robots" },
+              { "id": "q9_opt2", "text": "Smart watches" },
+              { "id": "q9_opt3", "text": "Speed cameras" },
+              { "id": "q9_opt4", "text": "Automated irrigation systems" },
+              { "id": "q9_opt5", "text": "Voice assistants such as Apple’s Siri, Google Assistant and Amazon’s Alexa" },
+              { "id": "q9_opt6", "text": "Glucose monitors for diabetics" },
+              { "id": "q9_opt7", "text": "Electric toaster" },
+              { "id": "q9_opt8", "text": "Fitness trackers" },
+              { "id": "q9_opt9", "text": "Vacuum cleaner" }
+            ],
+            "settings": { "multipleCorrectOptions": true },
+            "correctOptionsIndices": [1, 4, 5, 7]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ec_q10",
+    "title": "EC 2025, Q10, Data Security",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q10_p1",
+        "title": "Question 10",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Which of the following methods helps maintain data security? (More than one may be selected.)</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q10_opt1", "text": "Using public Wi-Fi for backup transfers." },
+              { "id": "q10_opt2", "text": "Encrypting data when stored and transmitted." },
+              { "id": "q10_opt3", "text": "Regularly updating software with security patches." },
+              { "id": "q10_opt4", "text": "Keeping all backups in one location for convenience." },
+              { "id": "q10_opt5", "text": "Implementing access levels to restrict users' viewing of unnecessary data." },
+              { "id": "q10_opt6", "text": "Applying the 3-2-1 backup rule - keep three copies of data, on two different media types, with one copy offsite." },
+              { "id": "q10_opt7", "text": "Saving login credentials within the browser for sites that do not use multi-factor authentication." }
+            ],
+            "settings": { "multipleCorrectOptions": true },
+            "correctOptionsIndices": [1, 2, 4, 5]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ec_q11",
+    "title": "EC 2025, Q11, Inference Engines",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q11_p1",
+        "title": "Question 11",
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Which techniques are used by inference engines? (More than one may be selected.)</p>" }] } },
+        "answer": {
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q11_opt1", "text": "Forward chaining" },
+              { "id": "q11_opt2", "text": "Hypothetical reasoning" },
+              { "id": "q11_opt3", "text": "Bubble sort" },
+              { "id": "q11_opt4", "text": "Heuristic knowledge" },
+              { "id": "q11_opt5", "text": "Backward chaining" },
+              { "id": "q11_opt6", "text": "Neural broadcasting" },
+              { "id": "q11_opt7", "text": "Binary search" }
+            ],
+            "settings": { "multipleCorrectOptions": true },
+            "correctOptionsIndices": [0, 1, 3, 4]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ec_q12",
+    "title": "EC 2025, Q12, Iterative Methodologies",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q12_p1",
         "title": "Question 12",
-        "metadata": {
-            "mark": 1
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Based on the above diagram, which statements are correct?</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 1 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Which of the following system development approaches are supported by an iterative methodology? (More than one may be selected.)</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "MULTI_CHOICE",
-                "options": [{
-                    "type": "TEXT",
-                    "text": "<p>Food outlets, Customers and Financial Institutions are sub-modules or sub-programs</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>This is a level 0 data flow diagram</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Food Ordering App is an external entity that interacts with the system</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Food outlets, Customers and Financial Institutions are external entities</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>The system is shown as a single process</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>Order details are provided by Customers directly to a Food Outlet</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>The Food Ordering App sends a message to the Customer once their order has been shipped by a Food Outlet</p>"
-                }, {
-                    "type": "TEXT",
-                    "text": "<p>The Food Ordering App sends the Order Details to the Food Outlet before the Transaction Status is received</p>"
-                }],
-                "settings": {
-                    "multipleCorrectOptions": true
-                },
-                "correctOptionsIndices": [1, 3, 4, 6]
-            }
+          "parameters": {
+            "type": "MULTI_CHOICE",
+            "options": [
+              { "id": "q12_opt1", "text": "Structured" },
+              { "id": "q12_opt2", "text": "Waterfall" },
+              { "id": "q12_opt3", "text": "Prototyping" },
+              { "id": "q12_opt4", "text": "Agile" },
+              { "id": "q12_opt5", "text": "End-user" },
+              { "id": "q12_opt6", "text": "Outsourcing" }
+            ],
+            "settings": { "multipleCorrectOptions": true },
+            "correctOptionsIndices": [2, 3]
+          }
         }
-    }]
-}, {
-    "id": "question-13",
-    "title": "New Question 13, Security Testing",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q13",
+    "title": "EC 2025, Q13, Data Concepts",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q13_p1",
         "title": "Question 13",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Match each feature with its correct security testing strategy.</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Match each description with the best term.</p>" }] } },
         "answer": {
-            "parameters": {
-                "version": 0,
-                "type": "OBJECTIVE_RESPONSE",
-                "header": [{
-                    "id": "header-desc",
-                    "text": "Feature"
-                }, {
-                    "id": "header-dast",
-                    "text": "Dynamic Application Security Testing (DAST)"
-                }, {
-                    "id": "header-sast",
-                    "text": "Static Application Security Testing (SAST)"
-                }, {
-                    "id": "header-pen",
-                    "text": "Penetration Testing"
-                }],
-                "rows": [{
-                    "id": "row-1",
-                    "cells": [{
-                        "id": "cell-1-desc",
-                        "text": "Simulates cyber attacks to find and exploit vulnerabilities."
-                    }, {
-                        "id": "cell-1-dast"
-                    }, {
-                        "id": "cell-1-sast"
-                    }, {
-                        "id": "cell-1-pen"
-                    }]
-                }, {
-                    "id": "row-2",
-                    "cells": [{
-                        "id": "cell-2-desc",
-                        "text": "Requires either the source code or binary."
-                    }, {
-                        "id": "cell-2-dast"
-                    }, {
-                        "id": "cell-2-sast"
-                    }, {
-                        "id": "cell-2-pen"
-                    }]
-                }, {
-                    "id": "row-3",
-                    "cells": [{
-                        "id": "cell-3-desc",
-                        "text": "Checks for security vulnerabilities without executing the code."
-                    }, {
-                        "id": "cell-3-dast"
-                    }, {
-                        "id": "cell-3-sast"
-                    }, {
-                        "id": "cell-3-pen"
-                    }]
-                }, {
-                    "id": "row-4",
-                    "cells": [{
-                        "id": "cell-4-desc",
-                        "text": "Evaluates environment and runtime issues."
-                    }, {
-                        "id": "cell-4-dast"
-                    }, {
-                        "id": "cell-4-sast"
-                    }, {
-                        "id": "cell-4-pen"
-                    }]
-                }, {
-                    "id": "row-5",
-                    "cells": [{
-                        "id": "cell-5-desc",
-                        "text": "Utilises scanning tools to understand how a target responds to intrusions."
-                    }, {
-                        "id": "cell-5-dast"
-                    }, {
-                        "id": "cell-5-sast"
-                    }, {
-                        "id": "cell-5-pen"
-                    }]
-                }, {
-                    "id": "row-6",
-                    "cells": [{
-                        "id": "cell-6-desc",
-                        "text": "Checks for security vulnerabilities while the program is running."
-                    }, {
-                        "id": "cell-6-dast"
-                    }, {
-                        "id": "cell-6-sast"
-                    }, {
-                        "id": "cell-6-pen"
-                    }]
-                }, {
-                    "id": "row-7",
-                    "cells": [{
-                        "id": "cell-7-desc",
-                        "text": "A purely white box testing strategy."
-                    }, {
-                        "id": "cell-7-dast"
-                    }, {
-                        "id": "cell-7-sast"
-                    }, {
-                        "id": "cell-7-pen"
-                    }]
-                }],
-                "correctCellIds": ["cell-1-pen", "cell-2-sast", "cell-3-sast", "cell-4-dast", "cell-5-pen", "cell-6-dast", "cell-7-sast"]
-            }
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [{ "text": "Description" }, { "text": "Data Warehouse" }, { "text": "Ordinal Data" }, { "text": "Pivot Table" }, { "text": "Blockchain" }, { "text": "Ratio Data" }, { "text": "Data Mining" }],
+            "rows": [
+              { "id": "q13_row1", "cells": [{ "text": "A central system for storing large volumes of data from multiple sources" }, { "id": "13.1" }, {}, {}, {}, {}, {}] },
+              { "id": "q13_row2", "cells": [{ "text": "Data that includes a meaningful zero and allows for comparison using multiplication/division" }, {}, {}, {}, {}, { "id": "13.5" }, {}] },
+              { "id": "q13_row3", "cells": [{ "text": "A tool used in spreadsheets to summarise and group large datasets" }, {}, {}, { "id": "13.3" }, {}, {}, {}] },
+              { "id": "q13_row4", "cells": [{ "text": "Technology that records transactions securely in a decentralised, tamper-proof ledger" }, {}, {}, {}, { "id": "13.4" }, {}, {}] },
+              { "id": "q13_row5", "cells": [{ "text": "A type of data that is ordered but does not have consistent intervals between values." }, {}, { "id": "13.2" }, {}, {}, {}, {}] },
+              { "id": "q13_row6", "cells": [{ "text": "Analysis process that reveals patterns or trends in large datasets" }, {}, {}, {}, {}, {}, { "id": "13.6" }] }
+            ],
+            "correctCellIds": ["13.1", "13.2", "13.3", "13.4", "13.5", "13.6"]
+          }
         }
-    }]
-}, {
-    "id": "question-14",
-    "title": "New Question 14, Web Development Roles",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q14",
+    "title": "EC 2025, Q14, Data Analysis Concepts",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q14_p1",
         "title": "Question 14",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Match each web development role with the W3C initiative or focus area to which it belongs.</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Match each description with its correct concept.</p>" }] } },
         "answer": {
-            "parameters": {
-                "version": 0,
-                "type": "OBJECTIVE_RESPONSE",
-                "header": [{
-                    "id": "header-desc",
-                    "text": "Role"
-                }, {
-                    "id": "header-sec",
-                    "text": "Web Security"
-                }, {
-                    "id": "header-wai",
-                    "text": "Web Accessibility Initiative (WAI)"
-                }, {
-                    "id": "header-intl",
-                    "text": "Internationalisation"
-                }, {
-                    "id": "header-data",
-                    "text": "Machine-readable data"
-                }, {
-                    "id": "header-priv",
-                    "text": "Privacy"
-                }],
-                "rows": [{
-                    "id": "row-1",
-                    "cells": [{
-                        "id": "cell-1-desc",
-                        "text": "Creates standards and working groups to protect user data and privacy"
-                    }, {
-                        "id": "cell-1-sec"
-                    }, {
-                        "id": "cell-1-wai"
-                    }, {
-                        "id": "cell-1-intl"
-                    }, {
-                        "id": "cell-1-data"
-                    }, {
-                        "id": "cell-1-priv"
-                    }]
-                }, {
-                    "id": "row-2",
-                    "cells": [{
-                        "id": "cell-2-desc",
-                        "text": "Develops standards and guidelines for secure web applications"
-                    }, {
-                        "id": "cell-2-sec"
-                    }, {
-                        "id": "cell-2-wai"
-                    }, {
-                        "id": "cell-2-intl"
-                    }, {
-                        "id": "cell-2-data"
-                    }, {
-                        "id": "cell-2-priv"
-                    }]
-                }, {
-                    "id": "row-3",
-                    "cells": [{
-                        "id": "cell-3-desc",
-                        "text": "Defines open formats (like XML) for data to be processed by computers"
-                    }, {
-                        "id": "cell-3-sec"
-                    }, {
-                        "id": "cell-3-wai"
-                    }, {
-                        "id": "cell-3-intl"
-                    }, {
-                        "id": "cell-3-data"
-                    }, {
-                        "id": "cell-3-priv"
-                    }]
-                }, {
-                    "id": "row-4",
-                    "cells": [{
-                        "id": "cell-4-desc",
-                        "text": "Supports web standards for multiple languages and cultural contexts"
-                    }, {
-                        "id": "cell-4-sec"
-                    }, {
-                        "id": "cell-4-wai"
-                    }, {
-                        "id": "cell-4-intl"
-                    }, {
-                        "id": "cell-4-data"
-                    }, {
-                        "id": "cell-4-priv"
-                    }]
-                }, {
-                    "id": "row-5",
-                    "cells": [{
-                        "id": "cell-5-desc",
-                        "text": "Ensures web content is usable by people with disabilities"
-                    }, {
-                        "id": "cell-5-sec"
-                    }, {
-                        "id": "cell-5-wai"
-                    }, {
-                        "id": "cell-5-intl"
-                    }, {
-                        "id": "cell-5-data"
-                    }, {
-                        "id": "cell-5-priv"
-                    }]
-                }],
-                "correctCellIds": ["cell-1-priv", "cell-2-sec", "cell-3-data", "cell-4-intl", "cell-5-wai"]
-            }
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [{ "text": "Description" }, { "text": "Aggregation and Filtering" }, { "text": "Predictive Analysis" }, { "text": "Real-Time Data Updates" }, { "text": "Pattern Recognition" }, { "text": "Interactive Visualisation" }, { "text": "Unstructured Dataset" }],
+            "rows": [
+              { "id": "q14_row1", "cells": [{ "text": "Selecting from datasets based on specific conditions and summarising using trends, averages and clusters." }, { "id": "14.1" }, {}, {}, {}, {}, {}] },
+              { "id": "q14_row2", "cells": [{ "text": "Uses forecasts and past data trends to help users anticipate future events." }, {}, { "id": "14.2" }, {}, {}, {}, {}] },
+              { "id": "q14_row3", "cells": [{ "text": "Dashboards that constantly refresh with new data." }, {}, {}, { "id": "14.3" }, {}, {}, {}] },
+              { "id": "q14_row4", "cells": [{ "text": "Identifying similarities within data enabling the system to learn, make decisions and solve problems." }, {}, {}, {}, { "id": "14.4" }, {}, {}] },
+              { "id": "q14_row5", "cells": [{ "text": "The ability for users to specify criteria or drill down and the display refreshes immediately." }, {}, {}, {}, {}, { "id": "14.5" }, {}] },
+              { "id": "q14_row6", "cells": [{ "text": "Data that has no fixed format, such as text and video." }, {}, {}, {}, {}, {}, { "id": "14.6" }] }
+            ],
+            "correctCellIds": ["14.1", "14.2", "14.3", "14.4", "14.5", "14.6"]
+          }
         }
-    }]
-}, {
-    "id": "question-15",
-    "title": "New Question 15, Machine Learning Models",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q15",
+    "title": "EC 2025, Q15, Intelligent System Components",
+    "stimulusContentItemCollection": null,
+    "parts": [
+      {
+        "id": "ec_q15_p1",
         "title": "Question 15",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Match each application scenario to the most appropriate machine learning model.</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Match each term with the best description.</p>" }] } },
         "answer": {
-            "parameters": {
-                "version": 0,
-                "type": "OBJECTIVE_RESPONSE",
-                "header": [{
-                    "id": "header-desc",
-                    "text": "Scenario"
-                }, {
-                    "id": "header-sup",
-                    "text": "Supervised learning"
-                }, {
-                    "id": "header-semi",
-                    "text": "Semi-supervised learning"
-                }, {
-                    "id": "header-unsup",
-                    "text": "Unsupervised learning"
-                }, {
-                    "id": "header-reinf",
-                    "text": "Reinforcement learning"
-                }],
-                "rows": [{
-                    "id": "row-1",
-                    "cells": [{
-                        "id": "cell-1-desc",
-                        "text": "Training a robot to navigate a maze"
-                    }, {
-                        "id": "cell-1-sup"
-                    }, {
-                        "id": "cell-1-semi"
-                    }, {
-                        "id": "cell-1-unsup"
-                    }, {
-                        "id": "cell-1-reinf"
-                    }]
-                }, {
-                    "id": "row-2",
-                    "cells": [{
-                        "id": "cell-2-desc",
-                        "text": "Labelling a small set of medical images and using them to classify a larger set"
-                    }, {
-                        "id": "cell-2-sup"
-                    }, {
-                        "id": "cell-2-semi"
-                    }, {
-                        "id": "cell-2-unsup"
-                    }, {
-                        "id": "cell-2-reinf"
-                    }]
-                }, {
-                    "id": "row-3",
-                    "cells": [{
-                        "id": "cell-3-desc",
-                        "text": "Predicting student grades based on past results"
-                    }, {
-                        "id": "cell-3-sup"
-                    }, {
-                        "id": "cell-3-semi"
-                    }, {
-                        "id": "cell-3-unsup"
-                    }, {
-                        "id": "cell-3-reinf"
-                    }]
-                }, {
-                    "id": "row-4",
-                    "cells": [{
-                        "id": "cell-4-desc",
-                        "text": "Teaching an AI agent to win a game through trial and error"
-                    }, {
-                        "id": "cell-4-sup"
-                    }, {
-                        "id": "cell-4-semi"
-                    }, {
-                        "id": "cell-4-unsup"
-                    }, {
-                        "id": "cell-4-reinf"
-                    }]
-                }, {
-                    "id": "row-5",
-                    "cells": [{
-                        "id": "cell-5-desc",
-                        "text": "Classifying email as spam or not spam"
-                    }, {
-                        "id": "cell-5-sup"
-                    }, {
-                        "id": "cell-5-semi"
-                    }, {
-                        "id": "cell-5-unsup"
-                    }, {
-                        "id": "cell-5-reinf"
-                    }]
-                }, {
-                    "id": "row-6",
-                    "cells": [{
-                        "id": "cell-6-desc",
-                        "text": "Grouping customers based on shopping habits"
-                    }, {
-                        "id": "cell-6-sup"
-                    }, {
-                        "id": "cell-6-semi"
-                    }, {
-                        "id": "cell-6-unsup"
-                    }, {
-                        "id": "cell-6-reinf"
-                    }]
-                }],
-                "correctCellIds": ["cell-1-reinf", "cell-2-semi", "cell-3-sup", "cell-4-reinf", "cell-5-semi", "cell-6-unsup"]
-            }
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [{ "text": "Description" }, { "text": "Microcontrollers" }, { "text": "Actuators and Motors" }, { "text": "Haptics" }, { "text": "Sensors" }, { "text": "Biometrics" }, { "text": "Touch and Gesture Recognition" }],
+            "rows": [
+              { "id": "q15_row1", "cells": [{ "text": "Low-level embedded processors that execute programmed control logic in real time." }, { "id": "15.1" }, {}, {}, {}, {}, {}] },
+              { "id": "q15_row2", "cells": [{ "text": "Convert electrical signals into mechanical movement, enabling physical responses based on digital instructions" }, {}, { "id": "15.2" }, {}, {}, {}, {}] },
+              { "id": "q15_row3", "cells": [{ "text": "Physical feedback from a system including pressure, vibration and pulses." }, {}, {}, { "id": "15.3" }, {}, {}, {}] },
+              { "id": "q15_row4", "cells": [{ "text": "Measures quantifiable changes in the environment and provides raw input data to a system." }, {}, {}, {}, { "id": "15.4" }, {}, {}] },
+              { "id": "q15_row5", "cells": [{ "text": "Using a person’s physical or behaviour traits to identify or verify who they are." }, {}, {}, {}, {}, { "id": "15.5" }, {}] },
+              { "id": "q15_row6", "cells": [{ "text": "Capture tactile or motion-based input and interpret it as user commands." }, {}, {}, {}, {}, {}, { "id": "15.6" }] }
+            ],
+            "correctCellIds": ["15.1", "15.2", "15.3", "15.4", "15.5", "15.6"]
+          }
         }
-    }]
-}, {
-    "id": "question-16",
-    "title": "New Question 16, Software Project Phases",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q16",
+    "title": "EC 2025, Q16, System Flowchart Symbols",
+    "stimulusContentItemCollection": {
+      "items": [{ "type": "IMAGE", "files": [{ "url": "img/independent/Q16_table.png" }] }]
+    },
+    "parts": [
+      {
+        "id": "ec_q16_p1",
         "title": "Question 16",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Match each task with the correct software project phase.</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Match the system flowchart symbols displayed with their correct names.</p>" }] } },
         "answer": {
-            "parameters": {
-                "version": 0,
-                "type": "OBJECTIVE_RESPONSE",
-                "header": [{
-                    "id": "header-desc",
-                    "text": "Task"
-                }, {
-                    "id": "header-id",
-                    "text": "Identifying and defining"
-                }, {
-                    "id": "header-test",
-                    "text": "Testing and evaluating"
-                }, {
-                    "id": "header-plan",
-                    "text": "Research and planning"
-                }, {
-                    "id": "header-prod",
-                    "text": "Producing and implementing"
-                }],
-                "rows": [{
-                    "id": "row-1",
-                    "cells": [{
-                        "id": "cell-1-desc",
-                        "text": "Decide on a suitable software development approach."
-                    }, {
-                        "id": "cell-1-id"
-                    }, {
-                        "id": "cell-1-test"
-                    }, {
-                        "id": "cell-1-plan"
-                    }, {
-                        "id": "cell-1-prod"
-                    }]
-                }, {
-                    "id": "row-2",
-                    "cells": [{
-                        "id": "cell-2-desc",
-                        "text": "Develop, construct and document algorithms."
-                    }, {
-                        "id": "cell-2-id"
-                    }, {
-                        "id": "cell-2-test"
-                    }, {
-                        "id": "cell-2-plan"
-                    }, {
-                        "id": "cell-2-prod"
-                    }]
-                }, {
-                    "id": "row-3",
-                    "cells": [{
-                        "id": "cell-3-desc",
-                        "text": "Explore tools used to develop ideas and generate solutions."
-                    }, {
-                        "id": "cell-3-id"
-                    }, {
-                        "id": "cell-3-test"
-                    }, {
-                        "id": "cell-3-plan"
-                    }, {
-                        "id": "cell-3-prod"
-                    }]
-                }, {
-                    "id": "row-4",
-                    "cells": [{
-                        "id": "cell-4-desc",
-                        "text": "Use a language-dependent code optimisation technique."
-                    }, {
-                        "id": "cell-4-id"
-                    }, {
-                        "id": "cell-4-test"
-                    }, {
-                        "id": "cell-4-plan"
-                    }, {
-                        "id": "cell-4-prod"
-                    }]
-                }, {
-                    "id": "row-5",
-                    "cells": [{
-                        "id": "cell-5-desc",
-                        "text": "Explore social and ethical issues associated with project work."
-                    }, {
-                        "id": "cell-5-id"
-                    }, {
-                        "id": "cell-5-test"
-                    }, {
-                        "id": "cell-5-plan"
-                    }, {
-                        "id": "cell-5-prod"
-                    }]
-                }, {
-                    "id": "row-6",
-                    "cells": [{
-                        "id": "cell-6-desc",
-                        "text": "Define and analyse the requirements of a problem."
-                    }, {
-                        "id": "cell-6-id"
-                    }, {
-                        "id": "cell-6-test"
-                    }, {
-                        "id": "cell-6-plan"
-                    }, {
-                        "id": "cell-6-prod"
-                    }]
-                }, {
-                    "id": "row-7",
-                    "cells": [{
-                        "id": "cell-7-desc",
-                        "text": "Compare actual with expected output"
-                    }, {
-                        "id": "cell-7-id"
-                    }, {
-                        "id": "cell-7-test"
-                    }, {
-                        "id": "cell-7-plan"
-                    }, {
-                        "id": "cell-7-prod"
-                    }]
-                }, {
-                    "id": "row-8",
-                    "cells": [{
-                        "id": "cell-8-desc",
-                        "text": "Code the solution in a programming language"
-                    }, {
-                        "id": "cell-8-id"
-                    }, {
-                        "id": "cell-8-test"
-                    }, {
-                        "id": "cell-8-plan"
-                    }, {
-                        "id": "cell-8-prod"
-                    }]
-                }],
-                "correctCellIds": ["cell-1-plan", "cell-2-prod", "cell-3-id", "cell-4-test", "cell-5-plan", "cell-6-id", "cell-7-test", "cell-8-prod"]
-            }
+          "parameters": {
+            "type": "OBJECTIVE_RESPONSE",
+            "header": [{ "text": "Symbol #" }, { "text": "Process" }, { "text": "Online Display" }, { "text": "Direct Access Storage" }, { "text": "Online Input" }, { "text": "Paper Document" }, { "text": "Manual Operation" }],
+            "rows": [
+              { "id": "q16_row1", "cells": [{ "text": "1" }, { "id": "16.1" }, {}, {}, {}, {}, {}] },
+              { "id": "q16_row2", "cells": [{ "text": "2" }, {}, { "id": "16.2" }, {}, {}, {}, {}] },
+              { "id": "q16_row3", "cells": [{ "text": "3" }, {}, {}, { "id": "16.3" }, {}, {}, {}] },
+              { "id": "q16_row4", "cells": [{ "text": "4" }, {}, {}, {}, { "id": "16.4" }, {}, {}] },
+              { "id": "q16_row5", "cells": [{ "text": "5" }, {}, {}, {}, {}, { "id": "16.5" }, {}] },
+              { "id": "q16_row6", "cells": [{ "text": "6" }, {}, {}, {}, {}, {}, { "id": "16.6" }] }
+            ],
+            "correctCellIds": ["16.1", "16.2", "16.3", "16.4", "16.5", "16.6"]
+          }
         }
-    }]
-}, {
-    "id": "question-17",
-    "title": "New Question 17, Authentication vs Authorisation",
-    "parts": [{
+      }
+    ]
+  },
+  {
+    "id": "ec_q17",
+    "title": "EC 2025, Q17, Data Bias",
+    "parts": [
+      {
+        "id": "ec_q17_p1",
         "title": "Question 17",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Distinguish between authentication and authorisation.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p><strong>Authentication</strong><br>Authentication is the process of verifying who you are. The question it answers is: \"Are you who you say you are?\" It's the first step in granting access to a system. To authenticate, a user provides credentials, which are then checked against a trusted database or system.</p><p>Common examples include:</p><ul><li><strong>Username and Password:</strong> You enter your username and a password. The system checks if the combination is valid.</li><li><strong>Biometrics:</strong> Using a fingerprint or facial recognition to unlock a device.</li><li><strong>Multi-Factor Authentication (MFA):</strong> This is a more robust method that requires two or more forms of verification. For example, after entering your password, you might also have to enter a code sent to your phone.</li></ul><br><p><strong>Authorization</strong><br>Once a user has been authenticated, authorization determines what they are allowed to do. The question it answers is: \"What are you permitted to access or do?\" This process involves checking the user's permissions and access rights.</p><p>Examples of authorization include:</p><ul><li><strong>Role-Based Access Control (RBAC):</strong> Users are assigned roles, and these roles have specific permissions. A \"Student\" role might allow a user to view course materials, while a \"Teacher\" role would allow them to create and edit them.</li><li><strong>Discretionary Access Control (DAC):</strong> The owner of a resource can decide who can access it and what they can do. A good example is sharing a Google Doc. The document owner can grant \"view only,\" \"comment,\" or \"edit\" permissions to others.</li><li><strong>Attribute-Based Access Control (ABAC):</strong> This is a more granular method that uses a set of attributes, like a user's department, the time of day, or the data's sensitivity, to decide access. For instance, a system might only allow access to a specific report during business hours.</li></ul><br><p><strong>The Key Difference</strong><br>The simplest way to remember the difference is with a simple analogy:</p><ul><li><strong>Authentication</strong> is like showing your ID to get into a building. It proves you're a valid person.</li><li><strong>Authorization</strong> is like getting a special keycard that only lets you into certain floors or rooms in that building. It determines what you can do once you're inside.</li></ul><p>Authentication is a prerequisite for authorization. You can't decide what a person is allowed to do until you've confirmed who they are.</p></div>"
-}
-    }]
-}, {
-    "id": "question-18",
-    "title": "New Question 18, Race Condition",
-    "stimulusContentItemCollection": {
-        "items": [{
-            "type": "RICH_TEXT",
-            "text": "<p>The Python code below defines a function that allows a user to purchase an item.</p><br><pre><code>import threading\nlock = threading.Lock()\ndef purchase_item(user_id, item_id):\n    with lock:  \n        if inventory[item_id] > 0:\n            inventory[item_id] -= 1\n            confirm_purchase(user_id, item_id)</code></pre>"
-        }]
-    },
-    "parts": [{
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Define Data Bias.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q17", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a clear and accurate definition of data bias, identifying it as a systematic error where data is not representative of the true population or phenomenon.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Provides a partially correct definition of data bias.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q17", "type": "RICH_TEXT", "text": "<div><p>Data bias refers to a type of error in which certain elements of a dataset are more heavily weighted or represented than others. This imbalance can lead to inaccurate results or predictions, as the data does not accurately reflect the real-world environment it is supposed to represent. It can arise from various sources, such as biased data collection methods or pre-existing societal prejudices reflected in the data.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q18",
+    "title": "EC 2025, Q18, Data Lake vs Data Swamp",
+    "parts": [
+      {
+        "id": "ec_q18_p1",
         "title": "Question 18",
-        "metadata": {
-            "mark": 3
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Explain what a race condition is and how it could affect the purchase_item function if no lock was implemented.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>A race condition is a problem that can happen in multi-threaded or multi-process applications when multiple threads or processes try to access and modify the same shared resource at the same time. The final outcome depends on the unpredictable timing or order of execution.</p><br><p><strong>How it affects purchase_item</strong><br>Without the lock, a race condition could lead to a user purchasing an item that is out of stock. Here's how it could happen:</p><ul><li>A user checks if an item is in stock. The inventory for that item is 1.</li><li>At the same exact moment, another user also checks the inventory for the same item. The inventory is still 1.</li><li>The first user purchases the item, and the inventory count goes down to 0.</li><li>The second user's purchase request goes through based on their earlier check, and they also get the item.</li></ul><p>The inventory is now at -1, which is not what you would want.</p><p>The <strong>threading.Lock()</strong> object is a mutual exclusion lock that makes sure only one thread can access the code within the <strong>with lock:</strong> block at any given time, preventing this from happening.</p></div>"
-}
-    }]
-}, {
-    "id": "question-19",
-    "title": "New Question 19, Security Compromise",
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Distinguish between a Data Lake and a Data Swamp.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q18", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Clearly distinguishes between a data lake and a data swamp, highlighting differences in data governance, organisation, and usability.</p>", "point": "<p>3</p>" }, { "criterion": "<p>Provides a good description of either a data lake or a data swamp, with some attempt to distinguish between them.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Provides some relevant information about data lakes or data swamps.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q18", "type": "RICH_TEXT", "text": "<div><p>A <strong>Data Lake</strong> is a centralised repository that stores vast amounts of raw data in its native format. It is well-governed, with metadata and cataloguing that make the data discoverable, accessible, and usable for analysis. It supports various user types, from data scientists to business analysts.</p><p>In contrast, a <strong>Data Swamp</strong> is a deteriorated and unmanaged data lake. It contains a large amount of data, but lacks proper governance, metadata, and organisation. This makes it difficult to find, trust, and use the data for any meaningful analysis. Essentially, a data lake becomes a data swamp when it is poorly managed, turning a valuable asset into an unusable liability.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q19",
+    "title": "EC 2025, Q19, SQL Query",
     "stimulusContentItemCollection": {
-        "items": [{
-            "type": "RICH_TEXT",
-            "text": "<p>A school’s online portal allows students to upload assessment files. Recently, a student discovered that by modifying the URL, they could access and download other students’ submitted files. It was also found that students could re-upload their work multiple times, overwriting previous submissions without detection even after the due date.</p>"
-        }]
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>A pet shop stores data on pet owners and their pets. An extract of the database schema is reproduced below:</p>" },
+        { "type": "IMAGE", "files": [{ "url": "img/independent/Q19.png" }] }
+      ]
     },
-    "parts": [{
+    "parts": [
+      {
+        "id": "ec_q19_p1",
         "title": "Question 19",
-        "metadata": {
-            "mark": 4
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Describe how confidentiality, accountability and integrity has been compromised in this scenario.</p>"
-                }]
-            }
-        },
+        "metadata": { "mark": 4 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Construct an SQL query that retrieves all records where the Type of pet is a dog. Each row retrieved should include the first name, surname and email of the owner along with the pet’s name and DOB. The results are to be sorted alphabetically by the pet’s name.</p>" }] } },
         "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
+          "parameters": { "type": "SQL", "datasetSetupQuery": "CREATE TABLE Owners (OwnerID INTEGER PRIMARY KEY, FirstName TEXT, Surname TEXT, Phone TEXT, Email TEXT); CREATE TABLE Pets (PetID INTEGER PRIMARY KEY, Name TEXT, Type TEXT, Breed TEXT, DOB TEXT, OwnerID INTEGER, FOREIGN KEY(OwnerID) REFERENCES Owners(OwnerID)); INSERT INTO Owners VALUES (1, 'John', 'Smith', '0411111111', 'john.s@email.com'), (2, 'Jane', 'Doe', '0422222222', 'jane.d@email.com'); INSERT INTO Pets VALUES (101, 'Buddy', 'Dog', 'Golden Retriever', '2020-05-15', 1), (102, 'Whiskers', 'Cat', 'Siamese', '2021-01-20', 1), (103, 'Max', 'Dog', 'German Shepherd', '2019-11-01', 2);" }
         },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>This scenario is a classic example of security vulnerabilities in a web application. Let's break down how confidentiality, integrity, and accountability were compromised.</p><br><p><strong>Confidentiality</strong><br>Confidentiality is about making sure that information is only accessible to those who are authorised to view it. In this case, the school portal failed to protect the students' assessment files from unauthorised access.</p><p>The confidentiality of the files was compromised when the student was able to modify the URL to access and download other students' work. This means the system didn't properly check if the user had the correct permissions to view the file they were requesting. This is often referred to as an Insecure Direct Object Reference (IDOR) vulnerability.</p><br><p><strong>Integrity</strong><br>Integrity refers to maintaining the accuracy and consistency of data. It ensures that data is not altered or corrupted by unauthorised parties.</p><p>The integrity of the assessment files was compromised because students could re-upload their work multiple times. Allowing a file to be overwritten without a proper version history or logging system means there's no way to verify the file's state at a specific time, such as the due date. This compromises the validity of the submission, as the original file submitted before the due date could have been changed.</p><br><p><strong>Accountability</strong><br>Accountability is the ability to trace actions to a specific user. It relies on a system's logging and auditing features to prove who did what and when.</p><p>Accountability was compromised because the system didn't detect or log the multiple re-uploads after the due date. Without a clear audit trail of file submissions, it's impossible for a teacher to verify when a file was last changed or who changed it. This allows students to modify their work post-deadline without any record of the action, making it difficult to enforce academic rules.</p></div>"
-}
-    }]
-}, {
-    "id": "question-20",
-    "title": "New Question 20, Collaboration Benefits",
-    "parts": [{
+        "markingCriteriaContentItem": { "id": "mc_q19", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a correct SQL query that fulfills all requirements: selects correct columns, joins tables, filters by pet type, and orders correctly.</p>", "point": "<p>4</p>" }, { "criterion": "<p>Provides a substantially correct query with one minor error (e.g., incorrect ordering, missing one column).</p>", "point": "<p>3</p>" }, { "criterion": "<p>Provides a query that addresses some requirements (e.g., selects from the correct tables but fails to join or filter correctly).</p>", "point": "<p>2</p>" }, { "criterion": "<p>Shows some understanding of SQL syntax.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q19", "type": "RICH_TEXT", "text": "<div><pre><code>SELECT \n    O.FirstName, \n    O.Surname, \n    O.Email, \n    P.Name, \n    P.DOB\nFROM \n    Owners O\nJOIN \n    Pets P ON O.OwnerID = P.OwnerID\nWHERE \n    P.Type = 'Dog'\nORDER BY \n    P.Name ASC;</code></pre></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q20",
+    "title": "EC 2025, Q20, Informatics",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>Consider the following sample data for sales at a pet store:</p>" },
+        { "type": "IMAGE", "files": [{ "url": "img/independent/Q20.png" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "ec_q20_p1",
         "title": "Question 20",
-        "metadata": {
-            "mark": 6
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Discuss the benefits of collaboration in software engineering.</p><p>In your response:</p><ul><li>Highlight at least three key advantages that effective collaboration can bring to a software development project.</li><li>Provide an example of a collaboration tool and explain how it facilitates collaboration among developers.</li></ul>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        }
-    }]
-}, {
-    "id": "question-21",
-    "title": "New Question 21, DNS Function",
-    "parts": [{
+        "metadata": { "mark": 6 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>With reference to the above data, discuss how informatics can support a deeper understanding of the data.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q20", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a comprehensive discussion of how informatics can be applied to the sample data. Links specific informatics concepts (e.g., data processing, analysis, visualisation) to potential insights (e.g., customer behaviour, sales trends). Justifies the value of these insights for the business.</p>", "point": "<p>5-6</p>" }, { "criterion": "<p>Explains how informatics could be used to analyse the data, providing relevant examples. Makes a clear link between informatics techniques and business understanding.</p>", "point": "<p>3-4</p>" }, { "criterion": "<p>Identifies some basic ways informatics could be applied (e.g., calculating totals, creating charts) with limited discussion of the resulting insights.</p>", "point": "<p>1-2</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q20", "type": "RICH_TEXT", "text": "<div><p>Informatics, the science of information processing, can transform the raw pet store sales data into actionable business intelligence. Firstly, data can be structured and stored in a database, allowing for efficient querying and processing. This enables aggregation to calculate key metrics, such as total revenue per product or average transaction value.</p><p>Secondly, data analysis techniques can uncover hidden patterns. For example, by analysing the 'Product' and 'Pet Type' columns, the store could identify which products are most popular for dogs versus cats. It could also perform a market basket analysis to see if certain items (like 'Dog Leash' and 'Dog Toy') are frequently purchased together, which could inform product placement or promotional bundling.</p><p>Finally, data visualisation would make these insights accessible. A dashboard could display sales trends over time using a line chart, compare product category performance with a bar chart, and show the proportion of sales by pet type with a pie chart. This deeper, informatics-driven understanding allows the pet store to make data-informed decisions about inventory management, marketing strategies, and customer engagement, ultimately leading to improved business performance.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q21",
+    "title": "EC 2025, Q21, Data Integrity",
+    "parts": [
+      {
+        "id": "ec_q21_p1",
         "title": "Question 21",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Outline the primary function performed by the Domain Name System (DNS).</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>The Domain Name System (DNS) acts like the internet's phonebook. Its primary purpose in web data transmission is to translate human-readable domain names (like www.example.com) into machine-readable Internet Protocol (IP) addresses (like 192.0.2.1). When you type a domain name into your browser, DNS lookups occur to find the corresponding IP address of the web server hosting that site, allowing your browser to connect to the correct server and retrieve the web page.</p></div>"
-}
-    }]
-}, {
-    "id": "question-22",
-    "title": "New Question 22, Web Content Management Systems",
-    "parts": [{
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Define data integrity and outline its importance.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q21", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Correctly defines data integrity and clearly outlines its importance for business operations and decision-making.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Provides a partial definition OR outlines its importance.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q21", "type": "RICH_TEXT", "text": "<div><p>Data integrity is the maintenance of, and the assurance of, the accuracy and consistency of data over its entire lifecycle. It is important because businesses rely on accurate data for decision-making, operational processes, and maintaining trust with customers. Without data integrity, reports would be flawed, strategies would be based on incorrect information, and the overall reliability of the enterprise system would be compromised.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q22",
+    "title": "EC 2025, Q22, Data Visualisations",
+    "parts": [
+      {
+        "id": "ec_q22_p1",
         "title": "Question 22",
-        "metadata": {
-            "mark": 3
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Outline the functions performed by web content management systems. Include two examples of web content management systems to assist your response.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-"id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-"updatedDate": "2025-07-10T04:17:35.978Z",
-"files": null,
-"type": "RICH_TEXT",
-"text": "<div><p>Web Content Management Systems (CMS) are software applications that allow users to create, manage, and modify digital content on a website without needing extensive technical knowledge. They simplify the process of publishing online content, making website management accessible to non-programmers.</p><br><p><strong>Functions of a CMS</strong><br>A CMS performs a variety of functions that cover the entire lifecycle of web content:</p><ul><li><strong>Content Creation and Editing:</strong> A CMS provides a user-friendly interface, often a what-you-see-is-what-you-get (WYSIWYG) editor, that lets users write and format content similar to a word processor.</li><li><strong>Workflow Management:</strong> It allows for the creation of workflows where content can be drafted by one user, reviewed by another, and approved by a third before being published. This is crucial for larger teams to maintain quality control.</li><li><strong>Content Organisation:</strong> A CMS helps organise content into a logical structure using categories, tags, and a navigation menu. This makes it easier for both users and search engines to find information.</li><li><strong>Design and Layout:</strong> Most CMS platforms use a templating system that separates content from design. This allows developers to create a consistent look and feel for a website, while content creators can focus on writing without affecting the site's layout.</li><li><strong>User Management:</strong> They provide tools to manage user roles and permissions, ensuring that only authorised users can access and modify specific parts of the website.</li><li><strong>Version Control:</strong> They can track changes made to content over time, allowing users to revert to a previous version if needed.</li><li><strong>Publishing:</strong> The CMS handles the process of making content live on the website, often with a simple click of a button.</li></ul><br><p><strong>Examples of CMS</strong></p><ul><li><strong>WordPress:</strong> This is one of the most popular and widely used CMS platforms in the world. Originally a blogging tool, it has evolved into a full-featured system for building everything from simple blogs to complex e-commerce sites. Its open-source nature and vast library of plugins and themes make it highly flexible.</li><li><strong>Squarespace:</strong> is another well-known example, particularly due to its extensive marketing. It's an all-in-one CMS platform that is famous for its simple, drag-and-drop interface and beautiful, ready-made templates. It's often used by small business owners, artists, and students who want to build a professional-looking website or online portfolio without needing to know any code.</li><li><strong>Joomla!:</strong> A free and open-source CMS used for publishing web content. It's often seen as more complex than WordPress but offers greater flexibility for building more intricate applications and websites. It is particularly well-suited for social networking, community portals, and corporate websites.</li></ul></div>"
-}
-    }]
-}, {
-    "id": "question-23",
-    "title": "New Question 23, Secure Communication",
-    "parts": [{
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe how data visualisations assist in understanding and communicating data. Include examples of data visualisations to illustrate your response.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q22", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a detailed description of how visualisations help in understanding and communication, supported by appropriate examples (e.g., bar charts for comparison, line charts for trends).</p>", "point": "<p>3</p>" }, { "criterion": "<p>Describes how visualisations help, with some relevant examples.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Provides some relevant information, such as naming a type of visualisation.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q22", "type": "RICH_TEXT", "text": "<div><p>Data visualisations translate complex datasets into graphical formats, making it easier for the human brain to process information, identify patterns, and understand trends. Instead of analysing rows of numbers, users can quickly grasp key insights.</p><p>For example, a <strong>bar chart</strong> can be used to compare sales figures across different product categories, immediately showing which categories are top performers. A <strong>line chart</strong> is effective for showing a trend over time, such as monthly revenue changes. A <strong>pie chart</strong> can illustrate proportions, like the market share of different competitors. By presenting data visually, these tools make complex information accessible and communicable to a wider audience, including stakeholders who may not be data experts.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q23",
+    "title": "EC 2025, Q23, Data Visualisation Production",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>The table below is a small extract of the results of a survey of over 4000 children aged 5 to 13 years of age to determine the time spent using a screen during weekdays and during weekends. The data has been anonymised to remove each child’s personal details.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "img/independent/Q23.png" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "ec_q23_p1",
         "title": "Question 23",
-        "metadata": {
-            "mark": 4
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Secure encrypted communication between browsers and web servers utilises the https protocol which includes SSL/TLS certificates.</p><p>Outline the exchange between browser and web server to:</p><ul><li>Confirm the identity of the web server</li><li>Establish a secure session</li><li>Communicate securely during the session</li></ul>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>Establishing a secure HTTPS connection involves a crucial handshake between the browser and the web server, which confirms the server's identity and sets up an encrypted communication channel. This process is orchestrated by SSL/TLS certificates.</p><br><p><strong>Confirm the Identity of the Web Server</strong></p><ul><li><strong>Browser Hello:</strong> When you type a URL with https://, your browser sends a \"Client Hello\" message to the web server. This message includes the browser's supported SSL/TLS versions and cryptographic algorithms.</li><li><strong>Server Hello and Certificate:</strong> The server responds with a \"Server Hello,\" choosing the highest common SSL/TLS version and a cryptographic suite. Most importantly, it sends its SSL/TLS certificate back to the browser. This certificate is a digital file that contains the server's public key, the domain name, and is signed by a trusted Certificate Authority (CA).</li><li><strong>Authentication:</strong> The browser verifies the server's identity by checking the certificate's authenticity. It confirms that the certificate is valid, hasn't expired, and that the domain name in the certificate matches the server it's trying to connect to. It also checks that the certificate was signed by a CA that the browser already trusts. This step prevents a fake server from impersonating the real one.</li></ul><br><p><strong>Establish a Secure Session</strong></p><ul><li><strong>Session Key Exchange:</strong> Once the server's identity is confirmed, the browser generates a unique, single-use pre-master secret and encrypts it using the server's public key from the certificate.</li><li><strong>Decrypting the Secret:</strong> The browser sends this encrypted secret to the server. Only the server, with its corresponding private key, can decrypt it.</li><li><strong>Symmetric Key Generation:</strong> Both the browser and the server now have the pre-master secret. They each use this secret, along with other data from the handshake, to independently generate the same symmetric session key. Symmetric encryption is much faster and more efficient for ongoing communication than public-key encryption.</li></ul><br><p><strong>Communicate Securely During the Session</strong><br>Once the symmetric session key is established, all subsequent communication between the browser and the server is encrypted using this key.</p><ul><li><strong>Encryption:</strong> The browser uses the session key to encrypt all data (e.g., login credentials, form data) before sending it to the server.</li><li><strong>Decryption:</strong> The server uses the same session key to decrypt the data.</li><li><strong>Ongoing Security:</strong> This process is reversed for data sent from the server back to the browser. The session key ensures that all data transmitted is unreadable to anyone who might be eavesdropping, providing confidentiality and integrity for the duration of the session.</li></ul></div>"
-}
-    }]
-}, {
-    "id": "question-24",
-    "title": "New Question 24, PWA Design Principles",
-    "parts": [{
+        "metadata": { "mark": 4 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe a suitable data visualisation and how it could be produced from the above data. The data visualisation is to display the size and relative differences between weekday and weekend screen time for each age child.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q23", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Describes a highly suitable visualisation (e.g., clustered bar chart) and clearly explains the steps to produce it from the given data, including defining axes and series.</p>", "point": "<p>4</p>" }, { "criterion": "<p>Describes a suitable visualisation and provides a reasonable explanation of how it could be produced.</p>", "point": "<p>3</p>" }, { "criterion": "<p>Describes a suitable visualisation with limited explanation of its production, or describes the production of a less suitable visualisation.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Identifies a suitable type of visualisation.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q23", "type": "RICH_TEXT", "text": "<div><p>A suitable data visualisation would be a <strong>clustered bar chart</strong>. This chart type is ideal for comparing two categories (Weekday Screen Time and Weekend Screen Time) across a range of discrete groups (Age).</p><p>To produce this visualisation using spreadsheet or business analytics software:</p><ol><li><strong>Data Selection:</strong> Select the three columns of data: 'Age', 'Weekday Screen Time (minutes)', and 'Weekend Screen Time (minutes)'.</li><li><strong>Chart Insertion:</strong> From the software's chart menu, choose the 'Clustered Bar Chart' (or Column Chart) option.</li><li><strong>Axis Configuration:</strong> The software should automatically assign 'Age' to the horizontal axis (X-axis). The vertical axis (Y-axis) would represent 'Time in minutes'.</li><li><strong>Data Series:</strong> Two series of bars would be created for each age group. One series would represent 'Weekday Screen Time', and the other would represent 'Weekend Screen Time'. A legend would be automatically generated to distinguish the two, typically by using different colours for each series.</li><li><strong>Titling and Labels:</strong> Add a clear title like 'Average Daily Screen Time by Age' and ensure axes are clearly labelled to finalise the chart for presentation.</li></ol></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q24",
+    "title": "EC 2025, Q24, UX Design Principles",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>Explain how user experience (UX) design principles enhance the effectiveness of data visualisations. You may refer to the following example dashboard to assist your response.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "img/independent/Q24-1.png" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "ec_q24_p1",
         "title": "Question 24",
-        "metadata": {
-            "mark": 6
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>You have been tasked with designing and developing a Progressive Web App (PWA) aimed at enhancing the accessibility and inclusivity of educational resources for infants school students. </p><p>Outline how you would address the following key design principles when creating the user interface (UI) and user experience (UX) of your PWA.</p><ul><li>Font selection and typography</li><li>Colour schemes and contrast</li><li>The use of audio and video elements</li><li>Navigation design</li></ul>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>Designing a Progressive Web App (PWA) for infant school students requires a focus on simplicity, clarity, and engagement to support accessibility and inclusivity. Here's how you would approach the UI and UX design principles for this project:</p><br><p><strong>Font Selection and Typography</strong><br>For infant school students, the key is legibility and familiarity. You would select a sans-serif font that is simple, with clear letterforms and no unnecessary embellishments. Fonts like Open Sans or Comic Sans are often good choices as they are widely recognized and have a playful, friendly feel. You would use a large font size to ensure that all text is easy to read, especially for students who may have developing eyesight. The use of a consistent font size and weight across the app would help reduce cognitive load and make the interface predictable.</p><br><p><strong>Colour Schemes and Contrast</strong><br>The colour scheme should be vibrant and engaging while maintaining high accessibility standards. You would use a palette with high contrast between the text and the background to make sure that the content is readable for students with visual impairments. For example, a dark blue text on a light yellow or white background works well. The colour scheme would also be used to create clear visual cues for interactive elements, such as using a bright colour for buttons and a muted colour for inactive items. You would avoid using colour alone to convey meaning, as this can be a barrier for students who are colourblind.</p><br><p><strong>The Use of Audio and Video Elements</strong><br>Audio and video are essential for this audience. You would use narrated text and visual animations to reinforce concepts. For instance, a video of a narrator explaining a concept would be paired with a simple animation that shows the concept in action. This multi-sensory approach helps different types of learners. Audio cues, such as a gentle chime for a correct answer or a soft buzz for an incorrect one, would be used to provide immediate, non-verbal feedback. All audio and video content would have closed captions and transcripts to support students who are hearing impaired or who learn better by reading.</p><br><p><strong>Navigation Design</strong><br>Navigation would need to be extremely simple and intuitive. The design would feature large, clear icons that represent different sections or activities. The text labels under the icons would be short and easy to read. A hierarchical navigation structure with a clear \"Home\" button would be implemented to prevent students from getting lost. The use of a progress bar or a simple visual tracker would show students how far they have progressed in an activity. All interactive elements would be generously spaced to make them easy to tap, even with small fingers. The entire navigation would be designed to require minimal reading and be based primarily on visual recognition.</p></div>"
-}
-    }]
-}, {
-    "id": "question-25",
-    "title": "New Question 25, Supervised vs Unsupervised Learning",
-    "parts": [{
+        "metadata": { "mark": 6 },
+        "content": { "contentItemCollection": { "items": [] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q24", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a detailed explanation of multiple UX principles and how they enhance data visualisations, effectively linking them to features in the example dashboard.</p>", "point": "<p>5-6</p>" }, { "criterion": "<p>Explains some UX principles and their application to data visualisations, with some reference to the example.</p>", "point": "<p>3-4</p>" }, { "criterion": "<p>Identifies one or two UX principles with a basic explanation.</p>", "point": "<p>1-2</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q24", "type": "RICH_TEXT", "text": "<div><p>User experience (UX) design principles are crucial for making data visualisations effective because they ensure the information is not only accurate but also accessible, intuitive, and easy to interpret. Key principles include:</p><ul><li><strong>Clarity and Simplicity:</strong> UX design focuses on removing clutter and unnecessary elements. In the example dashboard, there is a clean layout with ample white space, which helps users focus on the key metrics like 'Total Revenue' and 'Profit'. The visualisations themselves are simple (e.g., line chart, bar chart), avoiding overly complex designs that could confuse the user.</li><li><strong>Visual Hierarchy:</strong> This principle involves arranging elements to show their order of importance. The dashboard uses size and placement to draw attention to the most important numbers at the top (the KPIs). This guides the user's eye and helps them understand the most critical information first.</li><li><strong>Consistency:</strong> A consistent design language (e.g., using the same colour for revenue across different charts) reduces cognitive load. Users don't have to re-learn what elements mean, allowing them to interpret the data faster and more accurately.</li><li><strong>Accessibility:</strong> Good UX ensures that visualisations are usable by everyone, including people with disabilities. This includes using colour-blind friendly palettes and providing clear, legible text labels, which enhances the overall usability for all users.</li></ul><p>By applying these principles, UX design transforms a data visualisation from a simple chart into an effective communication tool that empowers users to make informed decisions quickly.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q25",
+    "title": "EC 2025, Q25, Intelligent Systems in Enterprises",
+    "parts": [
+      {
+        "id": "ec_q25_p1",
         "title": "Question 25",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Distinguish between supervised and unsupervised learning.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>Supervised and unsupervised learning are two fundamental categories in machine learning, distinguished by the type of data they use and the task they perform. The main difference lies in whether the training data is labelled.</p><br><p><strong>Supervised Learning</strong><br>In supervised learning, the algorithm is trained on a labelled dataset. This means that each piece of training data comes with a correct \"answer\" or \"label\" that the model can learn from. The goal is for the model to learn a mapping from input data to the correct output.</p><p>Think of it like a teacher-student relationship. The training data acts as the teacher, providing the correct answers for the model to learn from. Once trained, the model can then be used to predict labels for new, unseen data. A common use case is a model that predicts house prices based on features like size and location, where the training data includes historical prices.</p><br><p><strong>Unsupervised Learning</strong><br>In unsupervised learning, the algorithm is given an unlabelled dataset. There are no correct answers to learn from. The goal is for the model to find hidden patterns, structures, or relationships within the data on its own.</p><p>This is more like a student exploring a subject without a teacher. The algorithm looks for similarities and groupings within the data. A classic example is a clustering algorithm that groups customers with similar buying habits for marketing purposes, or a model that finds anomalies in a network for fraud detection. The model isn't told what a \"fraudulent transaction\" looks like; it simply finds unusual patterns.</p></div>"
-}
-    }]
-}, {
-    "id": "question-26",
-    "title": "New Question 26, Neural Network Learning",
-    "parts": [{
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Outline one way an intelligent system uses data to support automated decision-making in an enterprise.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q25", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Clearly outlines a specific example of an intelligent system, explaining how it uses data to make an automated decision.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Identifies a relevant example with a limited outline.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q25", "type": "RICH_TEXT", "text": "<div><p>One way is in financial fraud detection. An intelligent system analyses vast amounts of real-time transaction data, looking for patterns that deviate from a customer's normal spending habits. If a transaction is flagged as anomalous (e.g., a large purchase in a foreign country), the system can automatically make the decision to block the transaction and alert the customer, preventing potential fraud without human intervention.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q26",
+    "title": "EC 2025, Q26, Ethical Issues of Facial Recognition",
+    "parts": [
+      {
+        "id": "ec_q26_p1",
         "title": "Question 26",
-        "metadata": {
-            "mark": 3
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Explain how weights and backpropagation allow a neural network to learn using training data.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>Weights and backpropagation are the core mechanisms that allow a neural network to learn from training data, working together in a continuous feedback loop.</p><br><p><strong>Weights</strong><br>Think of weights as the network's knowledge base. Each connection between neurons in a neural network has an associated weight. When a neural network makes a prediction, the input data is multiplied by these weights as it passes through the network. A higher weight on a particular connection means that the input from the connected neuron is considered more important for the network's output.</p><p>Initially, these weights are set to small, random values. The goal of the learning process is to adjust these weights so that the network's predictions become more accurate.</p><br><p><strong>Backpropagation</strong><br>Backpropagation is the process of adjusting the weights. It's an algorithm that calculates the \"error\" of the network's prediction and then systematically distributes that error back through the network, from the output layer to the input layer.</p><p>Here's how it works in simple terms:</p><ul><li><strong>Forward Pass:</strong> The neural network takes a training data point (e.g., an image of a cat) and performs a forward pass to make a prediction.</li><li><strong>Calculate Error:</strong> The network's prediction is compared to the actual answer (the image is a cat). The difference between the prediction and the actual answer is the error.</li><li><strong>Backward Pass:</strong> Backpropagation then takes this error and propagates it backward through the network. It calculates how much each individual weight contributed to the total error.</li><li><strong>Weight Adjustment:</strong> Using an optimization algorithm (like gradient descent), the weights are adjusted. Weights that contributed to a larger error are changed more, while those that led to a correct prediction are changed less. This process is repeated thousands or millions of times with different training examples.</li></ul><p>In short, weights hold the knowledge, and backpropagation is the method for refining that knowledge by learning from mistakes. The cycle of forward pass, error calculation, and backward pass allows the network to iteratively improve its predictions.</p></div>"
-}
-    }]
-}, {
-    "id": "question-27",
-    "title": "New Question 27, Predicting Test Scores",
-    "parts": [{
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Discuss ethical issues associated with the use of cameras, including facial recognition, in retail stores to identify possible security concerns.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q26", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Discusses multiple relevant ethical issues (e.g., privacy, consent, bias) with clear explanations.</p>", "point": "<p>3</p>" }, { "criterion": "<p>Identifies and briefly discusses one or two ethical issues.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Identifies one relevant ethical issue.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q26", "type": "RICH_TEXT", "text": "<div><p>The use of facial recognition in retail stores raises significant ethical issues. A primary concern is <strong>privacy and consent</strong>; shoppers are often unaware their biometric data is being collected and stored, and they have not given explicit consent for this. This constant surveillance can create a chilling effect on personal freedom.</p><p>Another major issue is <strong>algorithmic bias</strong>. Facial recognition systems have been shown to be less accurate for women and people of colour, which could lead to a higher rate of false positives and wrongful accusations of shoplifting for individuals from these groups. This can result in unfair treatment and discrimination.</p><p>Finally, there is the risk of <strong>data misuse</strong>. The stored biometric data is a valuable target for hackers, and a breach could lead to identity theft. There is also the potential for 'function creep,' where data collected for security is later used for other purposes, like targeted advertising, without the customer's knowledge.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q27",
+    "title": "EC 2025, Q27, Intelligent Security Systems",
+    "stimulusContentItemCollection": {
+      "items": [{ "type": "IMAGE", "files": [{ "url": "img/independent/Q27.png" }] }]
+    },
+    "parts": [
+      {
+        "id": "ec_q27_p1",
         "title": "Question 27",
-        "metadata": {
-            "mark": 4
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>You have been asked to create a program that predicts student test scores based on the number of hours they studied.</p><ul><li>Identify the most appropriate machine learning regression algorithm for this task.</li><li>Briefly outline how you would implement this using object oriented programming (OOP).</li><li>List two features your model would require to function effectively.</li></ul>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>The most appropriate machine learning regression algorithm for predicting student test scores based on hours studied is <strong>Simple Linear Regression</strong>.</p><p>This is because the problem involves a single independent variable (hours studied) and a single dependent variable (test score) with the assumption of a linear relationship between them. This algorithm is straightforward, easy to interpret, and highly effective for this type of problem.</p><br><p><strong>Implementing with OOP</strong><br>To implement this using object-oriented programming, you could create a <strong>ScorePredictor</strong> class. This class would encapsulate the data and the methods for training the model and making predictions.</p><p>Here is a brief outline:</p><ul><li><strong>Class:</strong> ScorePredictor</li><li><strong>Attributes:</strong><ul><li><strong>slope:</strong> A variable to store the calculated slope of the regression line.</li><li><strong>intercept:</strong> A variable to store the calculated y-intercept of the regression line.</li></ul></li><li><strong>Methods:</strong><ul><li><strong>__init__(self, hours_studied, test_scores):</strong> The constructor would take the training data (hours studied and test scores) as input.</li><li><strong>train(self):</strong> This method would calculate the slope and intercept using the training data. This is where the core regression formula would be applied.</li><li><strong>predict(self, new_hour):</strong> This method would take a new value for hours studied and use the trained slope and intercept to predict the corresponding test score. It would use the formula: y = mx + b.</li></ul></li></ul><br><p><strong>Required Model Features</strong><br>Your model would require two key features to function effectively:</p><ul><li><strong>A training dataset:</strong> The model needs a set of historical data points, consisting of pairs of \"hours studied\" and \"test score,\" to learn the relationship between the two variables. Without this, the model has nothing to train on.</li><li><strong>An equation for prediction:</strong> The model needs a defined mathematical formula, in this case, the linear regression equation (y=mx+b), to make predictions on new data. The <strong>train</strong> method is responsible for finding the optimal m and b values.</li></ul></div>"
-}
-    }]
-}, {
-    "id": "question-28",
-    "title": "New Question 28, KNN Algorithm",
+        "metadata": { "mark": 4 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Analyse how the interaction between the above components contributes to the effectiveness of an enterprise's intelligent security system.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q27", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a clear analysis of the interaction between all components, explaining how they work together to create an effective, automated security system.</p>", "point": "<p>4</p>" }, { "criterion": "<p>Describes the role of the components and how they link together.</p>", "point": "<p>3</p>" }, { "criterion": "<p>Describes the role of at least two components.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Identifies the role of one component.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q27", "type": "RICH_TEXT", "text": "<div><p>The effectiveness of this intelligent security system relies on the seamless interaction between its three core components.</p><p>First, the <strong>Sensors</strong> (e.g., cameras, motion detectors) act as the system's eyes and ears, continuously collecting raw data from the environment. This data is then fed to the <strong>AI Analysis</strong> component. This is the 'brain' of the system, where machine learning algorithms process the sensor data to identify patterns, anomalies, or specific threats, such as an unauthorised person in a restricted area.</p><p>Once the AI analysis identifies a threat, it sends a command to the <strong>Control System</strong>. This is the 'hands' of the system, which executes an automated response. For example, it might lock doors, trigger an alarm, or notify security personnel. This closed-loop interaction—from data collection by sensors, to interpretation by AI, to action by the control system—allows for a rapid, automated, and intelligent response to security events, far quicker and more consistently than a human-only system could achieve.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q28",
+    "title": "EC 2025, Q28, Expert Systems",
     "stimulusContentItemCollection": {
-        "items": [{
-            "type": "RICH_TEXT",
-            "text": "<p>The K-Nearest Neighbours (KNN) algorithm is used to classify a new data point by comparing it to existing classified/labelled data points. It calculates the Euclidean distance between the new data point (shown as a question mark on the chart below) and every other point in the training data. It then counts the labels of the k closest points. The most common label among these neighbours is the predicted label assigned to the new point.</p>"
-        }, {
-            "type": "IMAGE",
-            "files": [
-                {
-                "url": "/img/independent/28.png"
-                }
-            ]
-        }]
+      "items": [{ "type": "RICH_TEXT", "text": "<p>The following text describes how a mechanic diagnoses an engine that won’t start.</p><p style=\"padding-left: 40px;\"><em>A customer brings in a car that won’t start. The mechanic first checks the battery and finds it’s fully charged, so that’s not the problem. Next, they turn the key and hear the engine crank, which means the starter motor is working. Then, they pull out a spark plug and test it—no spark. That points to an ignition problem. They inspect the ignition coil and find it has failed. After replacing the coil, the mechanic tests the engine again. This time, it starts right up. If it did not start the mechanic would continue by checking for fuel reaching the engine. If no fuel, then they would check various fuel system components. If the engine still fails to start, then they move on to other system such as the computer control system and its various sensors.</em></p>" }]
     },
-    "parts": [{
+    "parts": [
+      {
+        "id": "ec_q28_p1",
         "title": "Question 28",
-        "metadata": {
-            "mark": 6
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Write a pseudocode algorithm for a function called knn. It is passed:</p><ul><li><b>newPoint:</b> the x and y coordinates of the point to classify as A, B, C or D</li><li><b>tData:</b> an array of x and y coordinates for all labelled points</li><li><b>tLabels:</b> an array of strings with the label A, B, C or D for each known point</li><li><b>k:</b> an integer</li></ul><p>You may use the following pre-defined functions in your algorithm:</p><ul><li><b>distance(p1, p2):</b> returns the Euclidian distance between two (x, y) points</li><li><b>sort(pairlist):</b> sorts an array of [distance, label] pairs in ascending order by distance</li><li><b>mode(array):</b> returns the label that occurs most frequently in an array</li></ul><p>Your algorithm should return the predicted label for the new data point.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "PSEUDOCODE"
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><pre><code>function knn(newPoint, tData, tLabels, k):\n    // 1. Create an empty list to store distances and labels\n    distancesAndLabels = []\n    // 2. Loop through each point in the training data\n    for i from 0 to length(tData) - 1:\n        // 3. Get the current training point and its label\n        currentPoint = tData[i]\n        currentLabel = tLabels[i]\n        // 4. Calculate the Euclidean distance between the new point and the current training point\n        d = distance(newPoint, currentPoint)\n        // 5. Add the distance and its corresponding label to the list\n        distancesAndLabels.append([d, currentLabel])\n    // 6. Sort the list of pairs in ascending order based on distance\n    sortedDistances = sort(distancesAndLabels)\n    // 7. Create a new list to hold the labels of the k nearest neighbours\n    kNearestLabels = []\n    // 8. Loop k times to get the labels of the k closest points\n    for i from 0 to k - 1:\n        // 9. Get the label from the sorted list and add it to the kNearestLabels array\n        kNearestLabels.append(sortedDistances[i][1])\n    // 10. Determine the most frequent label among the k nearest neighbours\n    predictedLabel = mode(kNearestLabels)\n    // 11. Return the predicted label\n    return predictedLabel</code></pre></div>"
-}
-    }]
-}, {
-    "id": "question-29",
-    "title": "New Question 29, Gantt Charts",
-    "parts": [{
+        "metadata": { "mark": 6 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Describe the role of each significant component of an expert system that simulates a mechanic diagnosing an engine that won’t start.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q28", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Thoroughly describes the role of the main components of an expert system (knowledge base, inference engine, user interface) and accurately applies them to the car mechanic scenario.</p>", "point": "<p>5-6</p>" }, { "criterion": "<p>Describes the role of at least two components and relates them to the scenario.</p>", "point": "<p>3-4</p>" }, { "criterion": "<p>Identifies one or two components with a basic description.</p>", "point": "<p>1-2</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q28", "type": "RICH_TEXT", "text": "<div><p>An expert system simulating a mechanic would consist of several key components:</p><p>1. <strong>Knowledge Base:</strong> This is the core of the system, containing the specialised knowledge of an expert mechanic. It would be populated with facts and rules about car engines. For example:<ul><li><strong>Fact:</strong> A battery should have ~12.6 volts.</li><li><strong>Rule:</strong> IF the engine cranks BUT there is no spark, THEN check the ignition system.</li><li><strong>Rule:</strong> IF the ignition coil is faulty, THEN replace the ignition coil.</li></ul>This database of information allows the system to replicate the diagnostic process described in the text.</p><p>2. <strong>Inference Engine:</strong> This is the reasoning component that applies the rules from the knowledge base to the facts of the specific problem. When a user inputs symptoms (e.g., 'engine won't start', 'engine cranks'), the inference engine uses a technique like forward or backward chaining to logically progress through the diagnostic steps. It would follow the same path as the mechanic: check battery, check starter, check for spark, etc., until it deduces the most likely cause, such as the failed ignition coil.</p><p>3. <strong>User Interface:</strong> This is how a non-expert user (e.g., a junior mechanic or a car owner) interacts with the system. It would present a series of questions ('Is the battery fully charged?', 'Do you hear a cranking sound?') and allow the user to input the answers. At the end of the process, the interface would display the system's diagnosis ('The ignition coil has failed') and the recommended solution ('Replace the coil').</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q29",
+    "title": "EC 2025, Q29, Project Development Tools",
+    "parts": [
+      {
+        "id": "ec_q29_p1",
         "title": "Question 29",
-        "metadata": {
-            "mark": 2
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>How can Gantt charts assist project managers ensure project deadlines are met?</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>Gantt charts are powerful visual tools that help project managers ensure project deadlines are met by providing a clear, holistic view of a project's timeline and progress. They essentially function as a roadmap, allowing managers to see not only what tasks need to be done, but also when, in what order, and by whom.</p><br><p><strong>Visualizing the Timeline</strong><br>Gantt charts break down a large project into smaller, manageable tasks. Each task is represented by a horizontal bar on a timeline, with the bar's length corresponding to the task's duration. This visual representation makes it easy to see if a project is on track. You can quickly spot potential delays by looking at how the current date line aligns with the progress bars. This clarity helps in setting realistic deadlines from the very beginning.</p><br><p><strong>Identifying Dependencies</strong><br>One of the most important features of a Gantt chart is its ability to show task dependencies. These are the relationships between tasks where one task cannot begin until another is completed. For example, in a software project, you can't start coding a module until the design for that module is finalized. A Gantt chart uses lines or arrows to connect these dependent tasks, allowing a project manager to see how a delay in one area will affect all subsequent tasks. This helps prevent bottlenecks and allows for proactive adjustments.</p><br><p><strong>Progress Tracking and Resource Management</strong><br>As work progresses, a Gantt chart is updated to reflect the percentage of each task that has been completed. This provides a real-time snapshot of the project's health. By comparing planned progress with actual progress, a manager can identify tasks that are falling behind schedule. This information is crucial for making informed decisions, such as reallocating resources or adjusting the timeline. It also provides transparency for team members and stakeholders, as everyone can see who is responsible for each task and where the project stands.</p></div>"
-}
-    }]
-}, {
-    "id": "question-30",
-    "title": "New Question 30, FindItem Pseudocode",
-    "stimulusContentItemCollection": {
-        "items": [{
-            "type": "IMAGE",
-            "files": [
-                {
-                    "url": "/img/independent/30.png"
-                }
-            ]
-        }]
-    },
-    "parts": [{
+        "metadata": { "mark": 2 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Outline two tools that support the design and development of enterprise projects.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q29", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Outlines two distinct and appropriate tools, briefly explaining their function in enterprise projects.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Outlines one appropriate tool.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q29", "type": "RICH_TEXT", "text": "<div><p>1. <strong>Gantt Charts:</strong> These are project management tools used for planning and scheduling. They visually represent the project timeline, tasks, dependencies, and deadlines. This helps project managers track progress, allocate resources, and ensure the project stays on schedule.</p><p>2. <strong>CASE (Computer-Aided Software Engineering) Tools:</strong> These tools automate various stages of the system development life cycle. They can be used to create design diagrams (like DFDs or UML diagrams), generate code from these diagrams, perform testing, and maintain documentation, which improves consistency and efficiency in large enterprise projects.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q30",
+    "title": "EC 2025, Q30, Stakeholder Feedback",
+    "parts": [
+      {
+        "id": "ec_q30_p1",
         "title": "Question 30",
-        "metadata": {
-            "mark": 3
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Write a possible pseudocode algorithm for the FindItem routine based on the following structure chart.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "PSEUDOCODE"
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><pre><code>BEGIN FindItem(itemToFind):\n\n    // Step 1: Check if the item exists in the list by calling the ItemExists module.\n    // The black circle on the structure chart indicates a pass-by-value of the 'Found' boolean result.\n    Found = ItemExists(itemToFind)\n    initialise Location TO -1\n\n    // Step 2: Use a selection structure to determine the next action.\n    IF Found IS TRUE:\n        // Step 3: If the item exists, call the CheckLocation module to find its index.\n        // The structure chart shows ItemID is passed to CheckLocation, and Location is returned.\n        Location = CheckLocation(itemToFind)        \n     ENDIF\n\n     // Step 4: Return the location found.\n     RETURN Location\n\nEND FUNCTION</code></pre></div>"
-}
-    }]
-}, {
-    "id": "question-31",
-    "title": "New Question 31, Backup and Version Control",
-    "parts": [{
+        "metadata": { "mark": 3 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Explain how stakeholder feedback can influence the design and development of an enterprise system. In your response, refer to a specific development approach where feedback supports system development.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q30", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Clearly explains the influence of stakeholder feedback and correctly links it to a specific development approach (e.g., Agile, Prototyping).</p>", "point": "<p>3</p>" }, { "criterion": "<p>Explains the influence of feedback OR identifies a relevant development approach.</p>", "point": "<p>2</p>" }, { "criterion": "<p>Provides some relevant information about feedback or development approaches.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q30", "type": "RICH_TEXT", "text": "<div><p>Stakeholder feedback is vital as it ensures the final enterprise system meets the actual needs and expectations of its users and the business. This feedback can influence the system's features, user interface, and workflow. For example, if end-users find a proposed data entry screen confusing, their feedback can lead to a redesign that is more intuitive and efficient, preventing costly rework after the system is launched.</p><p>The <strong>Agile</strong> development approach is built around incorporating feedback. In Agile, the project is broken down into small, iterative cycles called 'sprints'. At the end of each sprint, a working piece of the software is demonstrated to stakeholders. Their feedback is immediately collected and used to prioritise and refine the work for the next sprint. This continuous feedback loop ensures the project evolves in line with stakeholder requirements and delivers maximum business value.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q31",
+    "title": "EC 2025, Q31, Multi-Factor Authentication",
+    "stimulusContentItemCollection": {
+      "items": [
+        { "type": "RICH_TEXT", "text": "<p>The decision tree below illustrates how multi-factor authentication is used to manage access to an enterprise system. A one-time password (OTP) is sent as a text message to the user’s mobile phone.</p>" },
+        { "type": "IMAGE", "files": [{ "url": "img/independent/Q31.png" }] }
+      ]
+    },
+    "parts": [
+      {
+        "id": "ec_q31_p1",
         "title": "Question 31",
-        "metadata": {
-            "mark": 4
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Discuss the role and importance of programmed data backup and version control when producing and implementing code.</p>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>When you're producing and implementing code, programmed data backup and version control are two essential practices that protect your work and support a collaborative environment. While they have different primary roles, they both contribute to the overall resilience and integrity of your projects.</p><br><p><strong>Programmed Data Backup</strong><br>Programmed data backup is the automated process of creating and storing copies of your files and data. It's a fundamental safety net against data loss.</p><ul><li><strong>Role:</strong> The main role is to safeguard your code and project data from unforeseen disasters. This includes hardware failure, accidental deletion, cyber-attacks, or natural disasters. By automating the process, you ensure that backups are performed regularly without manual intervention, reducing the risk of human error.</li><li><strong>Importance:</strong> Its importance lies in disaster recovery. If something catastrophic happens, a recent backup allows you to restore your codebase and get back to work quickly, minimising downtime and potential financial loss. It's the last line of defence for your project's integrity.</li></ul><br><p><strong>Version Control</strong><br>Version control, managed by a system like Git, is a method of tracking and managing changes to code. It's designed for collaboration and maintaining a complete history of a project.</p><ul><li><strong>Role:</strong> The main role is to track every change made to the code over time. This creates a detailed history, showing who made what changes, when, and why. It also facilitates collaboration by allowing multiple developers to work on the same project simultaneously without overwriting each other's work. It enables merging changes and resolving conflicts.</li><li><strong>Importance:</strong> Its importance is in change management and collaboration. It allows developers to revert to a previous version of the code if a new change introduces a bug, providing a safety net for development. It also makes teamwork efficient and organised. Each developer can work on their own branch of the code and then merge it back into the main project.</li></ul><br><p><strong>Summary</strong><br>In short, programmed data backup is about protecting your entire project from catastrophic loss, while version control is about managing the evolution of your codebase and enabling team collaboration. You need both for a robust software development workflow. A good backup system can save you from a hard drive failure, but only version control can tell you which line of code broke the build last Tuesday.</p></div>"
-}
-    }]
-}, {
-    "id": "question-32",
-    "title": "New Question 32, Wagile vs Agile",
-    "parts": [{
+        "metadata": { "mark": 4 },
+        "content": { "contentItemCollection": { "items": [{ "type": "RICH_TEXT", "text": "<p>Identify different ways users can authenticate themselves when accessing this system. Justify the reasoning that may be behind the use of this specific strategy and outline any issues you perceive.</p>" }] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q31", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Correctly identifies the authentication factors, provides a strong justification for the strategy, and outlines relevant issues.</p>", "point": "<p>4</p>" }, { "criterion": "<p>Addresses most parts of the question well, such as identifying factors and providing a justification or outlining issues.</p>", "point": "<p>2-3</p>" }, { "criterion": "<p>Identifies at least one authentication factor or a relevant issue.</p>", "point": "<p>1</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q31", "type": "RICH_TEXT", "text": "<div><p><strong>Authentication Methods:</strong> Users authenticate themselves using two factors: something they know (their password) and something they have (their mobile phone, to receive the OTP).</p><p><strong>Justification:</strong> The reasoning behind this Multi-Factor Authentication (MFA) strategy is to enhance security. A password alone can be stolen or guessed. By requiring a second factor (the OTP), an attacker would need to compromise both the user's password and have physical access to their phone, which is significantly more difficult. This layered approach greatly reduces the risk of unauthorised access to the enterprise system.</p><p><strong>Issues:</strong> One issue is reliance on the mobile phone network. If the user has no mobile service, they cannot receive the OTP and will be locked out. Another issue is the security of SMS messages themselves, which are not encrypted and can be intercepted through techniques like SIM-swapping attacks, making this method less secure than using an authenticator app.</p></div>" }
+      }
+    ]
+  },
+  {
+    "id": "ec_q32",
+    "title": "EC 2025, Q32, Project Development Factors",
+    "stimulusContentItemCollection": {
+      "items": [{ "type": "RICH_TEXT", "text": "<p>Maxwell is leading a small enterprise computing project for a new start-up developing a mobile productivity app. His team includes a freelance UX designer in Vietnam, a remote backend developer based in Perth and a local university intern. Discuss how the following factors may affect the development of Maxwell’s project.</p><ul style=\"list-style-type: disc;\"><li>Offshore development</li><li>Working remotely</li><li>Freelance work</li><li>Enabling the growth of start-ups</li></ul>" }]
+    },
+    "parts": [
+      {
+        "id": "ec_q32_p1",
         "title": "Question 32",
-        "metadata": {
-            "mark": 6
-        },
-        "content": {
-            "contentItemCollection": {
-                "items": [{
-                    "type": "RICH_TEXT",
-                    "text": "<p>Compare the Wagile and Agile software development approaches. </p><p>In your response:</p><ul><li>Outline the key characteristics of each approach.</li><li>Discuss one advantage and one disadvantage of each.</li><li>Justify a project scenario where pure Agile would be more suitable than Wagile.</li></ul>"
-                }]
-            }
-        },
-        "answer": {
-            "parameters": {
-                "type": "SHORT",
-                "extendedView": true
-            }
-        },
-        "sampleAnswerContentItem": {
-    "id": "a5aa09d9-9c5c-46f7-a078-db2c7aa15852",
-    "updatedDate": "2025-07-10T04:17:35.978Z",
-    "files": null,
-    "type": "RICH_TEXT",
-    "text": "<div><p>Agile and Wagile are two distinct approaches to software development. Agile is an iterative, flexible methodology, while Wagile is a hybrid model that combines elements of both the rigid Waterfall and flexible Agile approaches.</p><br><p><strong>Key Characteristics</strong></p><p><strong>Agile</strong> is a mindset and a set of principles defined by the Agile Manifesto. It focuses on:</p><ul><li><strong>Iterative Development:</strong> The project is broken down into small, time-boxed cycles called sprints (typically 1-4 weeks).</li><li><strong>Flexibility:</strong> It welcomes changing requirements, even late in development.</li><li><strong>Collaboration:</strong> There is constant communication and collaboration between the development team and the customer.</li><li><strong>Working Software:</strong> The primary measure of progress is working software, not documentation.</li></ul><p><strong>Wagile</strong> (or hybrid) is often an unintentional state that arises when a team tries to implement Agile principles within an organisation that is still fundamentally structured around a Waterfall model. It typically involves:</p><ul><li><strong>Waterfall-like Planning:</strong> A significant amount of upfront planning and detailed requirements gathering occur before development begins.</li><li><strong>Agile-like Execution:</strong> Once the planning is done, the development team uses Agile methods, like sprints, to build the product.</li><li><strong>Documentation-Heavy:</strong> It often maintains the extensive documentation common in Waterfall.</li><li><strong>Limited Flexibility:</strong> Changes after the initial planning phase can be difficult and costly to implement, much like in Waterfall.</li></ul><br><p><strong>Advantages and Disadvantages</strong></p><p><strong>Agile</strong></p><ul><li><strong>Advantage:</strong> Adaptability. The ability to respond to changing requirements and customer feedback throughout the project is a major strength. This leads to a final product that is more aligned with market needs and customer desires.</li><li><strong>Disadvantage:</strong> Lack of predictability. With constantly evolving requirements, it can be difficult to accurately estimate a final timeline or budget at the start of a project, which can be challenging for stakeholders who need a clear plan.</li></ul><p><strong>Wagile</strong></p><ul><li><strong>Advantage:</strong> Structured flexibility. Wagile provides a middle ground. It offers the predictability of upfront planning from the Waterfall model while allowing for iterative development and some flexibility during the execution phase. This can be useful for companies that are transitioning from a traditional model to a more Agile one.</li><li><strong>Disadvantage:</strong> Potential for confusion and conflict. The combination of two fundamentally different philosophies can lead to friction. Teams may struggle with the clash between rigid upfront planning and the desire for continuous change, leading to a dysfunctional process where neither approach is fully embraced.</li></ul><br><p><strong>Project Scenario for Pure Agile</strong><br>A pure Agile approach would be far more suitable than Wagile for a project involving a startup developing an innovative mobile application for a new market.</p><p>In this scenario, the market is highly unpredictable, and the end-goal is not fully defined at the start. The startup needs to \"fail fast\" and pivot based on early user feedback and market trends.</p><p>With Wagile, the extensive upfront planning would be a waste of time and resources, as the initial requirements are likely to change dramatically. The rigid plan would hinder the ability to respond to new information. In contrast, an Agile approach would allow the startup to build a Minimum Viable Product (MVP), get it into users' hands quickly, gather feedback, and iterate in short cycles, ensuring that the final product is what the market actually wants. The project's success is tied directly to its ability to embrace and respond to change, which is the core principle of Agile.</p></div>"
-}
-    }]
-}]
+        "metadata": { "mark": 6 },
+        "content": { "contentItemCollection": { "items": [] } },
+        "answer": { "parameters": { "type": "SHORT", "extendedView": true } },
+        "markingCriteriaContentItem": { "id": "mc_q32", "type": "MARKING_CRITERIA", "criteria": [{ "criterion": "<p>Provides a thorough discussion of all four factors, identifying both positive and negative effects on the project's development.</p>", "point": "<p>5-6</p>" }, { "criterion": "<p>Discusses at least two or three of the factors with reasonable detail.</p>", "point": "<p>3-4</p>" }, { "criterion": "<p>Identifies some relevant effects of one or two of the factors.</p>", "point": "<p>1-2</p>" }] },
+        "sampleAnswerContentItem": { "id": "sa_q32", "type": "RICH_TEXT", "text": "<div><p>Several factors will significantly affect Maxwell's project:</p><ul><li><strong>Offshore Development:</strong> Having a UX designer in Vietnam is an example of offshore development. A major advantage is potential cost savings on salary. However, it introduces challenges like time zone differences, which can delay communication and decision-making. Cultural and language barriers might also affect the clarity of design requirements.</li><li><strong>Working Remotely:</strong> With a developer in Perth, the team is geographically distributed. This offers flexibility and access to a wider talent pool. However, it requires strong project management and communication tools (e.g., Slack, Jira) to ensure collaboration is effective and to avoid team members becoming isolated. Building team cohesion can also be more difficult than with a co-located team.</li><li><strong>Freelance Work:</strong> Using a freelance designer provides specialised skills on a flexible, as-needed basis, which is cost-effective for a start-up. The risk is that the freelancer may have other clients and priorities, potentially affecting their availability and long-term commitment to the project. Clear contracts and deliverables are essential to manage this relationship.</li><li><strong>Enabling the Growth of Start-ups:</strong> This entire team structure is common for start-ups as it allows them to access specialised talent (freelance, offshore) without the high overheads of full-time, local employees. This agility is crucial for a start-up to develop a product quickly and affordably. The inclusion of an intern also provides low-cost support while offering valuable experience, further enabling the start-up's growth on a lean budget.</li></ul></div>" }
+      }
+    ]
+  }
+]
