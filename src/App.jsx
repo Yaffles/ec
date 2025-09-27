@@ -101,16 +101,10 @@ function ExamList() {
       desc:
         "Practice familiarisation questions for the CSSA Software Engineering exam.",
     },
-    { id: "nsb", title: "NSB Exam", desc: "NSB Software Engineering exam." },
     {
       id: "cssa_trial",
       title: "CSSA Trial Exam",
       desc: "CSSA Trial Software Engineering exam.",
-    },
-    {
-      id: "girraween",
-      title: "Girraween Exam",
-      desc: "Girraween High School Software Engineering exam.",
     },
     {
       id: "hsc_familiarisation",
