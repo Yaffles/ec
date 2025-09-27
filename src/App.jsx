@@ -6,9 +6,7 @@ import { Editor } from "@monaco-editor/react";
 // Map exam IDs to JSON files
 const examFiles = {
   cssa_familiarisation: "data/cssa_familiarisation.json",
-  nsb: "data/nsb.json",
   cssa_trial: "data/cssa_trial.json",
-  girraween: "data/girraween.json",
   hsc_familiarisation: "data/hsc_familiarisation.json",
   hsc_sample_exam: "data/hsc_sample_exam.json",
   independent: "data/independent.json"
@@ -127,7 +125,7 @@ function ExamList() {
     {
       id: "independent",
       title: "Independent Trial Exam",
-      desc: "Independent Trial Exam for Software Engineering."
+      desc: "Independent Trial Exam for Enterprise Computing."
     }
   ];
 
